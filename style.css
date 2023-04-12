@@ -27,3 +27,19 @@ body{
 .navbar-nav{
     background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
 }
+.navbar-color{
+    background-color:rgb(231, 118, 231)
+}
+
+.cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.card-img-top{
+    margin-top: 1%;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
