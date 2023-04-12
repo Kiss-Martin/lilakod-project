@@ -1,3 +1,5 @@
 body{
-    background-image: url('képek/hatter.jpg');
+    background-image: url('képek/hatter3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
