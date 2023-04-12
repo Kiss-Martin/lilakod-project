@@ -1,5 +1,17 @@
 body{
+<<<<<<< Updated upstream
     background-image: url('képek/hatter3.png');
     background-repeat: no-repeat;
     background-size: cover;
+=======
+    background-image: url('képek/hatter.jpg');
+}
+.navbar-kapcs{
+    width: 16px;
+    height: 16px
+}
+.navbar-toggler{
+    width: 100px;
+    height: 100px;
+>>>>>>> Stashed changes
 }
