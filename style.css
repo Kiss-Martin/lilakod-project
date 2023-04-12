@@ -42,3 +42,23 @@ body {
     width: 128px;
     height: 128px;
 }
+
+.navhover {
+    transition: all 1s ease-in-out;
+}
+
+.navhover:hover {
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    transition: 1s;
+    padding: 10px;
+}
+
+.hover {
+    transition: all 1s ease-in-out;
+}
+
+.hover:hover {
+    transform: scale(108%);
+    transition: 1s;
+}
