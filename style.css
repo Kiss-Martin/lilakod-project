@@ -1,3 +1,5 @@
+
+
 body{
     background-image: url('képek/hatter3.png');
     background-repeat: no-repeat;
@@ -18,6 +20,10 @@ body{
     
 }
 
-.navbar-color{
-    background-color:rgb(231, 118, 231)
+.navbar{
+    background-color: rgb(204, 123, 204);
+}
+
+.navbar-nav{
+    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
 }
