@@ -21,3 +21,8 @@ body{
 .navbar-color{
     background-color:rgb(231, 118, 231)
 }
+
+.cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
