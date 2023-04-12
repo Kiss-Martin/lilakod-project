@@ -1,43 +1,42 @@
-
-
-body{
+body {
     background-image: url('képek/hatter3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.navbar-kapcs{
+
+.navbar-kapcs {
     width: 65px;
     height: 65px
 }
-.navbar-toggler{
+
+.navbar-toggler {
     width: 100px;
     height: 100px;
 }
 
-.logo{
+.logo {
     width: 50px;
     height: 50px;
-    
 }
 
-.navbar{
+.navbar {
     background-color: rgb(204, 123, 204);
 }
 
-.navbar-nav{
+.navbar-nav {
     background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
 }
-.navbar-color{
-    background-color:rgb(231, 118, 231)
+
+.navbar-color {
+    background-color: rgb(231, 118, 231)
 }
 
-.cards{
+.cards {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-
-.card-img-top{
+.card-img-top {
     margin-top: 1%;
     border-radius: 50%;
     width: 128px;
