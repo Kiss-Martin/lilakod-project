@@ -108,6 +108,7 @@ body {
 
 .container-mid {
     width: 65%;
+    background-color: rgba(223, 173, 223, 0.5);
 }
 
 p {
@@ -120,4 +121,9 @@ h3,
 h4,
 h5 {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-iras {
+    margin-left: 10%;
+    margin-right: 10%;
 }
