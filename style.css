@@ -1,7 +1,7 @@
 body {
     background-image: url('képek/hatter3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1000%;
+    background-color: #240931;
 }
 
 .border-purple {
@@ -108,7 +108,11 @@ body {
 
 .container-mid {
     width: 65%;
-    background-color: rgba(223, 173, 223, 0.5);
+    background-image: url(képek/lombikhatter.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 17.5%;
 }
 
 p {
@@ -127,4 +131,29 @@ h6 {
 .main-iras {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.welcome {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 8%;
+}
+
+.welcome-text {
+    font-size: larger;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 25%;
+    color: white;
+}
+
+.container-large {
+    width: 70%;
+}
+
+.futer {
+    width: 100%;
+    margin-bottom: 0;
 }
