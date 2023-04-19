@@ -267,3 +267,11 @@ h1 {
 .disabled {
     pointer-events: none;
 }
+
+.btnborder {
+    background-color: rgba(223, 173, 223, 0.5);
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
