@@ -24,7 +24,7 @@ body {
     --bs-btn-disabled-color: #000000;
     --bs-btn-disabled-bg: #000000;
     --bs-btn-disabled-border-color: #ffffff;
-  }
+}
 
 .navbar-kapcs {
     width: 65px;
@@ -49,9 +49,8 @@ body {
     background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
 }
 
-
 .navbar-color {
-    background-color: rgba(223, 173, 223, 0.5)
+    background-color: rgba(223, 173, 223, 0.5);
 }
 
 .cards {
@@ -98,19 +97,27 @@ body {
     padding: 13px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 550;
-
 }
 
-.navbar-active{
+.navbar-active {
     color: rgb(223, 223, 223);
     font-weight: 550;
+}
+
+.container-mid {
+    width: 65%;
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
 }
-h1, h2, h3, h4, h5 {
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Josefin Sans', sans-serif;
 }
