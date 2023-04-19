@@ -4,6 +4,28 @@ body {
     background-size: cover;
 }
 
+.border-purple {
+    --bs-border-opacity: 1;
+    border-color: rgb(204, 123, 204) !important;
+}
+
+.btn-purple {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #b10dfd;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ff00c8;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6d0aca;
+    --bs-btn-active-border-color: #e48adc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #ffffff;
+}
+
 .navbar-kapcs {
     width: 65px;
     height: 65px
@@ -86,4 +108,16 @@ body {
 
 .container-mid {
     width: 65%;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
 }
