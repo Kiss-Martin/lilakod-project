@@ -277,7 +277,7 @@
         padding: 0;
     }
     
-    .noescape:hover {
+    .noescape:hover{
         cursor: no-drop;
     }
     
@@ -363,3 +363,39 @@
     .glow {
         animation: flash-purple 6s linear infinite;
     }
+
+    .purplefire {
+        color: #ffffff;
+        font-size: 3rem;
+        text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
+        animation: fire 0.5s ease-in-out infinite;
+      }
+      
+      @keyframes fire {
+        0% {
+          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
+        }
+        50% {
+          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 8rem #791f87;
+        }
+        100% {
+          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
+        }
+      }
+
+      .float {
+        animation: float 6s ease-in-out infinite;
+      }
+      
+      @keyframes float {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(0, 5px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+      
