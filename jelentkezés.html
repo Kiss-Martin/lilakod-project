@@ -13,22 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Jelentkezés a csapatba</title>
 </head>
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-color rounded-bottom-5 container-lg">
+<nav class="navbar navbar-expand-lg sticky-top navbar-color rounded-bottom-5 container-large mx-auto border border-light border-5">
     <div class="container text-center">
         <div class="text-center mx-auto">
             <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="navbar-kapcs" src="képek/lilalombik.png" alt="Lila lombik">
-            </button>
-
+                <img class="navbar-kapcs" src="képek/lilalombik.png" alt="Lila lombik">
+              </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand navhover" href="index.html">Lilaköd Projekt</a>
+            <a class="navbar-brand" href="index.html">Lilaköd Projekt</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link navhover" aria-current="page" href="index.html">Főoldal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active navhover" href="jelentkezes.html">Jelentkezés</a>
+                    <a class="nav-link navbar-active navhover" href="jelentkezés.html">Jelentkezés</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navhover" href="munkatarsaink.html">Munkatársaink</a>
@@ -37,7 +36,7 @@
                     <a class="nav-link navhover" href="rolunk.html">Rólunk</a>
                 </li>
             </ul>
-            <button id="submit" type="button" style="border:none" class="rounded-5"><img class="logo" src="képek/lilalombik.png" alt=""></button>
+            <button id="submit" type="button" class="rounded-5 btnborder"><img class="logo" src="képek/lilalombik.png" alt=""></button>
             <div id="input-display"></div>
         </div>
     </div>
@@ -46,6 +45,7 @@
 <body class="bg-primary">
     <div class="mx-auto bg-white bg-opacity-50 container mt-5 rounded-2 shadow">
         <form class="p-5 shad">
+            <h1 class="text-center text-decoration-none mb-3 text-shadow">Jelentkezzen csapatunkba!</h1>
             <div class=" p-3 mb-3 align-middle text-center bg-white bg-opacity-75 rounded-2 shadow">A Lila Köd Kutatócsoport elkötelezett amellett, hogy hozzájáruljon a pozitív és harmonikus munkahelyi kultúra kialakításához, valamint a magánéletben az érzelmi intelligencia és a kapcsolatok fejlesztéséhez. Várjuk, hogy együtt dolgozhassunk
                 Önnel, hogy felfedezhessük a lila köd előnyeit és pozitív hatásait az élet minden területén.</div>
             <div class="mb-3">
@@ -55,17 +55,17 @@
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover">Lakcím</label>
-                <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="(Település, utca, házszám)">
+                <input type="text" class="form-control shadow" placeholder="(Település, utca, házszám)">
                 <div id="emailHelp" class="form-text p-2 "></div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover">E-mail cím</label>
-                <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="(minta@minta.hu)">
+                <input type="email" class="form-control shadow" aria-describedby="email" placeholder="(minta@minta.hu)">
                 <div id="emailHelp" class="form-text p-2"></div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover">Telefonszám</label>
-                <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="(+36 11 111 1111)">
+                <input type="tel" class="form-control shadow" placeholder="(+36 11 111 1111)">
                 <div id="emailHelp" class="form-text p-2"></div>
             </div>
             <div class="mb-3 form-check">

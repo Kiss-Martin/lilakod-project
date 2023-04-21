@@ -1,129 +1,365 @@
-body {
-    background-image: url('képek/hatter3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.border-purple {
-    --bs-border-opacity: 1;
-    border-color: rgb(204, 123, 204) !important;
-}
-
-.btn-purple {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #b10dfd;
-    --bs-btn-border-color: #000000;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #ff00c8;
-    --bs-btn-hover-border-color: #0a58ca;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #6d0aca;
-    --bs-btn-active-border-color: #e48adc;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #000000;
-    --bs-btn-disabled-bg: #000000;
-    --bs-btn-disabled-border-color: #ffffff;
-}
-
-.navbar-kapcs {
-    width: 65px;
-    height: 65px
-}
-
-.navbar-toggler {
-    width: 100px;
-    height: 100px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-}
-
-.navbar {
-    background-color: rgb(204, 123, 204);
-}
-
-.navbar-nav {
-    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
-}
-
-.navbar-color {
-    background-color: rgba(223, 173, 223, 0.5);
-}
-
-.cards {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.card-img-top {
-    margin-top: 1%;
-    border-radius: 50%;
-    width: 128px;
-    height: 128px;
-}
-
-.hover {
-    transition: all 1s ease-in-out;
-}
-
-.hover:hover {
-    transform: scale(108%);
-    transition: 1s;
-}
-
-.navhover {
-    transition: all 1s ease-in-out;
-}
-
-.navhover:hover {
-    color: rgb(255, 255, 255);
-    opacity: 100%;
-    transition: 1s;
-    margin-inline: 15px;
-    font-weight: 550;
-}
-
-.logo {
-    transition: all 1s ease-in-out;
-}
-
-.logo:hover {
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    transition: 1s;
-    padding: 13px;
-}
-
-.navbar-brand {
-    font-weight: 550;
-}
-
-.navbar-active {
-    color: rgb(223, 223, 223);
-    font-weight: 550;
-}
-
-.container-mid {
-    width: 65%;
-    background-color: rgba(223, 173, 223, 0.5);
-}
-
-p {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.main-iras {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+    body {
+        background-image: url('képek/hatter3.png');
+        background-size: 1000%;
+        background-color: #240931;
+    }
+    
+    .border-purple {
+        --bs-border-opacity: 1;
+        border-color: rgb(204, 123, 204) !important;
+    }
+    
+    .btn-purple {
+        --bs-btn-color: #fff;
+        --bs-btn-bg: #b10dfd;
+        --bs-btn-border-color: #000000;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #ff00c8;
+        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #6d0aca;
+        --bs-btn-active-border-color: #e48adc;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #000000;
+        --bs-btn-disabled-bg: #000000;
+        --bs-btn-disabled-border-color: #ffffff;
+    }
+    
+    .navbar-kapcs {
+        width: 65px;
+        height: 65px
+    }
+    
+    .navbar-toggler {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .navbar {
+        background-color: rgb(204, 123, 204);
+    }
+    
+    .navbar-nav {
+        background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
+    }
+    
+    .navbar-color {
+        background-color: rgba(223, 173, 223, 0.5);
+    }
+    
+    .cards {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .card-img-top {
+        margin-top: 1%;
+        border-radius: 50%;
+        width: 128px;
+        height: 128px;
+    }
+    
+    .hover {
+        transition: all 1s ease-in-out;
+    }
+    
+    .hover:hover {
+        transform: scale(108%);
+        transition: 1s;
+    }
+    
+    .navhover {
+        transition: all 1s ease-in-out;
+    }
+    
+    .navhover:hover {
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        transition: 1s;
+        margin-inline: 15px;
+        font-weight: 550;
+    }
+    
+    .logo {
+        transition: all 1s ease-in-out;
+    }
+    
+    .logo:hover {
+        color: rgb(0, 0, 0);
+        opacity: 100%;
+        transition: 1s;
+        padding: 13px;
+    }
+    
+    .navbar-brand {
+        font-weight: 550;
+    }
+    
+    .navbar-active {
+        color: rgb(223, 223, 223);
+        font-weight: 550;
+    }
+    
+    .container-mid {
+        width: 65%;
+        background-image: url(képek/lombikhatter.jpg);
+        background-size: cover;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-left: 17.5%;
+    }
+    
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .main-iras {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .welcome {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-radius: 12px;
+        padding: 8%;
+    }
+    
+    .welcome-text {
+        font-size: x-large;
+        padding-top: 10%;
+        padding-bottom: 25%;
+        color: white;
+        font-style: italic;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .container-large {
+        width: 70%;
+    }
+    
+    .futer {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Alumni Sans", sans-serif;
+        font-size: 16px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-size: 2em;
+        background: #212121;
+        color: #fff;
+        text-transform: uppercase;
+        gap: 30px;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.6em;
+        }
+    }
+    
+    .text-shadow {
+        font-style: italic;
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: #fff;
+        -webkit-text-stroke-width: 1px;
+        text-shadow: 2px 2px 10px #740a8a;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+        letter-spacing: 0.2em;
+        -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
+        animation: flicker 0.5s ease-in-out infinite alternate;
+    }
+    
+    .text-shadow:hover {
+        color: #fff;
+    }
+    
+    @media (max-width: 768px) {
+        .tags small {
+            font-size: 0.5em;
+        }
+    }
+    
+    @-webkit-keyframes flicker {
+        0% {
+            opacity: 0.5;
+            text-shadow: 2px 2px 10px #740a8a;
+        }
+        100% {
+            opacity: 1;
+            text-shadow: 2px 2px 20px #740a8a;
+        }
+    }
+    
+    @keyframes flicker {
+        0% {
+            opacity: 0.5;
+            text-shadow: 2px 2px 10px #740a8a;
+        }
+        100% {
+            opacity: 1;
+            text-shadow: 2px 2px 20px #740a8a;
+        }
+    }
+    
+    .floating {
+        animation-name: floating;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    
+    @keyframes floating {
+        from {
+            transform: translate(0, 0px);
+        }
+        50% {
+            transform: translate(0, 10px);
+        }
+        to {
+            transform: translate(0, -0px);
+        }
+    }
+    
+    .disabled {
+        pointer-events: none;
+    }
+    
+    .btnborder {
+        background-color: rgba(223, 173, 223, 0.5);
+        border: none;
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .noescape:hover {
+        cursor: no-drop;
+    }
+    
+    .flash-red:hover {
+        animation: flash-red 0.5s linear infinite;
+    }
+    
+    @keyframes flash-red {
+        0% {
+            color: rgb(100, 0, 0);
+            text-shadow: #ff00c8;
+        }
+        25% {
+            color: red;
+        }
+        50% {
+            color: rgb(100, 0, 0);
+            text-shadow: #ff00c8;
+        }
+        75% {
+            color: red;
+        }
+        100% {
+            color: rgb(100, 0, 0);
+            text-shadow: #ff00c8;
+        }
+    }
+    
+    .skull {
+        width: 50px;
+        height: 50px;
+        transition: all 1s;
+    }
+    
+    .skull:hover {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        animation: skull 0.5s linear infinite;
+    }
+    
+    @keyframes skull {
+        0% {
+            background-color: rgb(100, 0, 0);
+        }
+        25% {
+            background-color: red;
+        }
+        50% {
+            background-color: rgb(100, 0, 0);
+        }
+        75% {
+            background-color: red;
+        }
+        100% {
+            background-color: rgb(100, 0, 0);
+        }
+    }
+    
+    @keyframes flash-purple {
+        0% {
+            color: #791f87;
+            text-shadow: #791f87;
+        }
+        25% {
+            color: rgb(255, 0, 255);
+            text-shadow: #ff00c8;
+        }
+        50% {
+            color: #791f87;
+            text-shadow: #791f87;
+        }
+        75% {
+            color: rgb(255, 0, 255);
+            text-shadow: #ff00c8;
+        }
+        100% {
+            color: #791f87;
+            text-shadow: #791f87;
+        }
+    }
+    
+    .glow {
+        animation: flash-purple 6s linear infinite;
+    }

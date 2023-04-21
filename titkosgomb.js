@@ -27,3 +27,7 @@ const inputDisplay = document.getElementById('input-display')
 inputDisplay.textContent = args.error.value
 submitBtn.disabled = 'true'
 fname.addEventListener('input', checkInput)
+
+submitBtn.addEventListener("click", () => {
+    window.location.href = "sotetoldal.html";
+});
