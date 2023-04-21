@@ -43,6 +43,7 @@
     
     .navbar {
         background-color: rgb(204, 123, 204);
+        width: 70%;
     }
     
     .navbar-nav {
@@ -277,7 +278,7 @@
         padding: 0;
     }
     
-    .noescape:hover{
+    .noescape:hover {
         cursor: no-drop;
     }
     
@@ -363,39 +364,39 @@
     .glow {
         animation: flash-purple 6s linear infinite;
     }
-
+    
     .purplefire {
         color: #ffffff;
         font-size: 3rem;
         text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
         animation: fire 0.5s ease-in-out infinite;
-      }
-      
-      @keyframes fire {
+    }
+    
+    @keyframes fire {
         0% {
-          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
+            text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
         }
         50% {
-          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 8rem #791f87;
+            text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 8rem #791f87;
         }
         100% {
-          text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
+            text-shadow: 0 0 0.5rem #791f87, 0 0 1rem #791f87, 0 0 2rem #791f87, 0 0 3rem #791f87, 0 0 4rem #791f87;
         }
-      }
-
-      .float {
+    }
+    
+    .float {
         animation: float 6s ease-in-out infinite;
-      }
-      
-      @keyframes float {
+    }
+    
+    @keyframes float {
         0% {
-          transform: translate(0, 0);
+            transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, 5px);
+            transform: translate(0, 5px);
         }
         100% {
-          transform: translate(0, 0);
+            transform: translate(0, 0);
         }
       }
       
@@ -419,4 +420,64 @@
           filter: brightness(1) hue-rotate(0);
         }
       }
-      
+    
+    .about-us {
+        background-color: rgba(255, 255, 255, 0.125);
+        width: 75%;
+        color: white;
+        margin-top: 5%;
+        padding: 1%;
+        font-size: larger;
+    }
+    
+    .text-shadow-white {
+        font-style: italic;
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: #fff;
+        -webkit-text-stroke-width: 1px;
+        text-shadow: 2px 2px 10px #ffffff;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+        letter-spacing: 0.2em;
+        -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
+        animation: flicker 0.5s ease-in-out infinite alternate;
+        margin-top: 2%;
+    }
+    
+    .floating-2 {
+        animation-name: floating;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    @media (max-width: 700px) {
+        .container-mid {
+            width: 55%;
+            margin-left: 22.5%;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        .text-shadow {
+            font-size: 1.25rem;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        .welcome-text {
+            font-size: 0.9rem;
+            text-align: center;
+            margin-left: 3%;
+        }
+    }
+    
+    @media(max-width: 500px) {
+        .floating {
+            animation-name: floating;
+            animation-duration: 0s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+    }
