@@ -481,3 +481,12 @@
             animation-timing-function: ease-in-out;
         }
     }
+
+    @media (max-width: 768px) {
+        .cards {
+            width: 50%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
