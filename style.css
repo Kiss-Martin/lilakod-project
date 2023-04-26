@@ -8,7 +8,7 @@
         --bs-border-opacity: 1;
         border-color: rgb(204, 123, 204) !important;
     }
-
+    
     .btn-purple {
         --bs-btn-color: #fff;
         --bs-btn-bg: #b10dfd;
@@ -398,28 +398,28 @@
         100% {
             transform: translate(0, 0);
         }
-      }
-      
-      .popupglow {
+    }
+    
+    .popupglow {
         position: relative;
         animation: popupglow 10s infinite;
         filter: brightness(2.5);
-      }
-      
-      @keyframes popupglow {
+    }
+    
+    @keyframes popupglow {
         0% {
-          transform: scale(1) translateY(0);
-          filter: brightness(1) hue-rotate(0);
+            transform: scale(1) translateY(0);
+            filter: brightness(1) hue-rotate(0);
         }
         50% {
-          transform: scale(1) translateY(-10%);
-          filter: brightness(3) hue-rotate(30deg);
+            transform: scale(1) translateY(-10%);
+            filter: brightness(3) hue-rotate(30deg);
         }
         100% {
-          transform: scale(1) translateY(0);
-          filter: brightness(1) hue-rotate(0);
+            transform: scale(1) translateY(0);
+            filter: brightness(1) hue-rotate(0);
         }
-      }
+    }
     
     .about-us {
         background-color: rgba(255, 255, 255, 0.125);
@@ -481,7 +481,7 @@
             animation-timing-function: ease-in-out;
         }
     }
-
+    
     @media (max-width: 768px) {
         .cards {
             width: 50%;
@@ -490,57 +490,126 @@
             margin-left: auto;
         }
     }
-
+    
     .glowbg {
         border: 2px solid transparent;
         border-radius: 20px;
         box-shadow: 0 0 10px 0 #ff00ff;
         animation: glow 2s ease-in-out infinite alternate;
-      }
-      
-      @keyframes glow {
+    }
+    
+    @keyframes glow {
         from {
-          border-color: #ff00ff;
-          box-shadow: 0 0 10px 0 #ff00ff;
+            border-color: #ff00ff;
+            box-shadow: 0 0 10px 0 #ff00ff;
         }
         to {
-          border-color: transparent;
-          box-shadow: 0 0 40px 0 #ff00ff;
+            border-color: transparent;
+            box-shadow: 0 0 40px 0 #ff00ff;
         }
-      }
-
-      .gradbg {
+    }
+    
+    .gradbg {
         background: linear-gradient(to bottom right, #ffa07a, #ff7f50, #ff6347, #ff4500);
         animation-name: spin;
         animation-duration: 3s;
         animation-iteration-count: infinite;
         transform-style: preserve-3d;
-      }
-      
-      @keyframes spin {
+    }
+    
+    @keyframes spin {
         from {
-          transform: rotateX(0deg) rotateY(0deg);
+            transform: rotateX(0deg) rotateY(0deg);
         }
         to {
-          transform: rotateX(360deg) rotateY(360deg);
+            transform: rotateX(360deg) rotateY(360deg);
         }
-      }
-      
-      .gradbg:hover {
+    }
+    
+    .gradbg:hover {
         animation-play-state: paused;
         filter: hue-rotate(90deg);
         transition: filter 1s ease-in-out;
         box-shadow: 0 0 20px #ff4500;
-      }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+    }
+    
+    .glowbg {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0 #ff00ff;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+        from {
+            border-color: #ff00ff;
+            box-shadow: 0 0 px 0 #ff00ff;
+        }
+        to {
+            border-color: transparent;
+            box-shadow: 0 0 10px 0 #ff00ff;
+        }
+    }
+    
+    .glowingborder {
+        border: 2px solid #fff;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #791f87, 0 0 80px #791f87, 0 0 90px #791f87, 0 0 100px #791f87;
+    }
+    
+    @media (max-width: 700px) {
+        .glowingborder {
+            border: 2px solid #fff;
+            box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #791f87, 0 0 30px #791f87, 0 0 35px #791f87, 0 0 40px #791f87;
+        }
+    }
+    
+    .donation {
+        padding: 3%;
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 35%;
+        margin-bottom: 2%;
+        border-radius: 12px;
+    }
+    
+    .donation-button {
+        background-color: rgba(182, 134, 182, 0.5);
+        border-radius: 12px;
+        color: white;
+        border: 2px solid #fff;
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 15px #791f87, 0 0 30px #791f87, 0 0 35px #791f87, 0 0 40px #791f87;
+        padding: 3%;
+        font-weight: bold;
+        transition: 0.8s ease-in-out;
+        float: right;
+    }
+    
+    .donation-button:hover {
+        background-color: rgba(182, 134, 182, 0.5);
+        border-radius: 12px;
+        color: white;
+        border: 2px solid #fff;
+        box-shadow: 0 0 2px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 20px #791f87, 0 0 39px #791f87, 0 0 45px #791f87, 0 0 50px #791f87;
+        padding: 3%;
+        font-weight: bolder;
+        transition-duration: 0.8s
+    }
+    
+    .donation-div {
+        padding: 5%;
+    }
+    
+    .donation-input {
+        margin-bottom: 3%;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    
+    input[type=number] {
+        -moz-appearance: textfield;
+    }

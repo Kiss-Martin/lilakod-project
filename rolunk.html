@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="képek/lilalombik.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>A Lilaköd-Projektről</title>
 </head>
-<nav class="navbar navbar-expand-lg sticky-top navbar-color rounded-bottom-5 container-large mx-auto border border-light border-5">
+<nav class="navbar navbar-expand-lg navbar-color rounded-bottom-5 container-lg mx-auto border border-light border-5">
     <div class="container text-center">
         <div class="text-center mx-auto">
             <button class="navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
                     <a class="nav-link navhover" href="munkatarsaink.html">Munkatársaink</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbar-active navhover" href="rolunk.html">Rólunk</a>
+                    <a class="nav-link navbar-active navhover" href="rolunk.html">Rólunk / Támogatás</a>
                 </li>
             </ul>
             <img class="logo" src="képek/lilalombik.png" alt="">
@@ -46,12 +46,51 @@
         <h1 class="text-shadow-white">Rólunk</h1>
     </div>
 
-    <div class="floating-2">
-        <div class="about-us rounded-3 mx-auto bg-white bg-opacity-50">
+    <div class="floating-2 ">
+        <div class="glowingborder about-us rounded-3 mx-auto bg-white bg-opacity-50">
             <p>
                 Üdvözöljük a Lila Köd Kutatócsoportban! Mi egy fiatal és dinamikus cég vagyunk, amelynek célja a lila köd jelenségének alaposabb megértése és pozitív felhasználása. A lila köd egy még ismeretlen és titokzatos anyag erősen mérgező és aggresszív tulajdonságokkal,
                 amely gyakran megjelenik többek között Győr városa felett is, főleg a szabadhegyi TV-torony környékén.
             </p>
+            <p>
+                Célunk, hogy jobban megértsük ezt az anomáliát és rájöjjünk, hogy milyen pozitív hatásai lehetnek, például a motiváció és az együttműködés fokozásában, valamint az innováció elősegítésében. Az általunk végzett kutatások és elemzések lehetővé teszik számunkra,
+                hogy megértsük a lila köd jelenségét, és hogyan használhatjuk ki pozitív hatásait a munkahelyi és magánéletben egyaránt.
+            </p>
+            <p>
+                Szakembereink a legújabb kutatási módszerekkel és eszközökkel dolgoznak, hogy a lehető legátfogóbb és legpontosabb képet kapjuk a lila ködről és annak hatásairól. Az eredményeket pedig felhasználjuk különböző tréningek, workshopok és tanácsadási szolgáltatások
+                kialakítására, melyeknek célja, hogy segítsék az embereket az érzelmi állapotok kezelésében, illetve a hatékonyabb munkavégzésben.
+            </p>
+            <p>
+                A Lila Köd Kutatócsoport folyamatosan dolgozik azon, hogy még többet megtudjon a lila köd jelenségéről, és hogyan hasznosítható a pozitív hatásai. A továbbiakban célunk, hogy kiterjesszük a kutatást és bevonjuk a szakértők szélesebb körét, akikkel együttműködve
+                még alaposabb elemzéseket és kutatásokat végezhetünk.
+            </p>
+            <p>
+                A Lila Köd Kutatócsoport azt is tervezi, hogy szorosabb együttműködést alakít ki különböző szervezetekkel és cégekkel, hogy szélesebb körben alkalmazhassuk a lila köd pozitív hatásait. Ezen cégek közé tartozik a Tragtoshop, illetve a Cég.
+
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="text-shadow-white">Támogatás</h1>
+    </div>
+
+    <div class="bg-white bg-opacity-50 donation">
+
+        <label class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover" for="">Név</label>
+        <input class="form-control shadow donation-input" placeholder="(Gipsz Jakab)" type="text">
+
+        <label class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover" for="">Bankkártyaszám</label>
+        <input class="form-control shadow donation-input" placeholder="0000 0000 0000 0000" type="number">
+
+        <label class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover" for="">Kártya lejárati dátuma</label>
+        <input class="form-control shadow donation-input" placeholder="01/01" type="number">
+
+        <label class="form-label bg-white bg-opacity-75 p-1 rounded-2 shadow hover" for="">Biztonsági kód</label>
+        <input class="form-control shadow donation-input" placeholder="000" type="">
+
+        <div class="donation-div">
+            <button onclick="alert('Hálásan köszönjük támogatását!\nMinden beérkező fityinget a kutatásunk fejlesztésére fogunk felhasználni(VAGY NEM).')" class="donation-button" type="submit">Donate</button>
         </div>
     </div>
 </body>
