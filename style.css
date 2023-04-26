@@ -490,3 +490,22 @@
             margin-left: auto;
         }
     }
+
+    .glowbg {
+        border: 2px solid transparent;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 0 #ff00ff;
+        animation: glow 2s ease-in-out infinite alternate;
+      }
+      
+      @keyframes glow {
+        from {
+          border-color: #ff00ff;
+          box-shadow: 0 0 px 0 #ff00ff;
+        }
+        to {
+          border-color: transparent;
+          box-shadow: 0 0 10px 0 #ff00ff;
+        }
+      }
+      
