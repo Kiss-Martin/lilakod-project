@@ -442,7 +442,7 @@
         letter-spacing: 0.2em;
         -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
         animation: flicker 0.5s ease-in-out infinite alternate;
-        margin-top: 2%;
+        margin-top: 5%;
     }
     
     .floating-2 {
@@ -582,6 +582,7 @@
         font-weight: bold;
         transition: 0.8s ease-in-out;
         float: right;
+        text-shadow: -1px -1px 0 #791f87, 1px -1px 0 #791f87, -1px 1px 0 #791f87, 1px 1px 0 #791f87;
     }
     
     .donation-button:hover {
@@ -612,4 +613,8 @@
     
     input[type=number] {
         -moz-appearance: textfield;
+    }
+    
+    .demomessage {
+        color: white
     }
