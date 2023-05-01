@@ -4,7 +4,7 @@ function myFunction() {
     if (person == null || person == "") {
         text = "Nem írtál semmit.\nSZÉGYELLD MAGAD!!!";
     } else {
-        text = "Hello " + person + "! How are you today?";
+        text = "Köszönjük lilaköd megvalósulásához való hozzájárulását!";
     }
     document.getElementById("demo").innerHTML = text;
 }
