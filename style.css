@@ -509,48 +509,6 @@
         }
     }
     
-    .gradbg {
-        background: linear-gradient(to bottom right, #ffa07a, #ff7f50, #ff6347, #ff4500);
-        animation-name: spin;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        transform-style: preserve-3d;
-    }
-    
-    @keyframes spin {
-        from {
-            transform: rotateX(0deg) rotateY(0deg);
-        }
-        to {
-            transform: rotateX(360deg) rotateY(360deg);
-        }
-    }
-    
-    .gradbg:hover {
-        animation-play-state: paused;
-        filter: hue-rotate(90deg);
-        transition: filter 1s ease-in-out;
-        box-shadow: 0 0 20px #ff4500;
-    }
-    
-    .glowbg {
-        border: 2px solid transparent;
-        border-radius: 20px;
-        box-shadow: 0 0 10px 0 #ff00ff;
-        animation: glow 2s ease-in-out infinite alternate;
-    }
-    
-    @keyframes glow {
-        from {
-            border-color: #ff00ff;
-            box-shadow: 0 0 px 0 #ff00ff;
-        }
-        to {
-            border-color: transparent;
-            box-shadow: 0 0 10px 0 #ff00ff;
-        }
-    }
-    
     .glowingborder {
         border: 2px solid #fff;
         box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #791f87, 0 0 80px #791f87, 0 0 90px #791f87, 0 0 100px #791f87;
@@ -618,3 +576,32 @@
     .demomessage {
         color: white
     }
+
+    .red-text {
+        background: linear-gradient(to right, red, #ff7f00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: up-down 5s ease-in-out infinite;
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 1500px red;
+        -webkit-text-stroke: 0.5px red;
+        display: inline-block;
+        font-size: larger;
+      }
+      
+      @keyframes up-down {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-50px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      
+      
+      
+      
+      
