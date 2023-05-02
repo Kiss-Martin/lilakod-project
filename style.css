@@ -600,7 +600,34 @@
           transform: translateY(0);
         }
       }
-      
+
+      .red-text-no-move{
+        background: linear-gradient(to right, red, #ff7f00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150000px red;
+        -webkit-text-stroke: 0.5px red;
+        display: inline-block;
+        font-size: larger;
+      }
+
+      .skullbutton{
+        font-size: 5rem;
+        background: linear-gradient(to right, red, #ff7f00);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 1500px red;
+        -webkit-text-stroke: 0.3px red;
+        display: inline-block;
+        transition: all 1s;
+      }
+
+      .skullbutton:hover{
+        animation: skullspin 2s ease-in-out;
+        font-size: 6rem;
+      }
+
       
       
       

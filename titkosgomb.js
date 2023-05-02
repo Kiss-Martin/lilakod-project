@@ -31,3 +31,4 @@ fname.addEventListener('input', checkInput)
 submitBtn.addEventListener("click", () => {
     window.location.href = "sotetoldal.html";
 });
+
