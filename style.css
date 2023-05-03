@@ -1,6 +1,6 @@
     body {
         background-image: url('képek/hatter3.png');
-        background-size: 1000%;
+        background-size: 1100%;
         background-color: #240931;
     }
     
@@ -65,6 +65,13 @@
         width: 128px;
         height: 128px;
     }
+
+    .card-img{
+        background-image: url(képek/lombikhatter.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     
     .hover {
         transition: all 1s ease-in-out;
@@ -576,7 +583,7 @@
     .demomessage {
         color: white
     }
-
+    
     .red-text {
         background: linear-gradient(to right, red, #ff7f00);
         background-clip: text;
@@ -587,21 +594,21 @@
         -webkit-text-stroke: 0.5px red;
         display: inline-block;
         font-size: larger;
-      }
-      
-      @keyframes up-down {
+    }
+    
+    @keyframes up-down {
         0% {
-          transform: translateY(0);
+            transform: translateY(0);
         }
         50% {
-          transform: translateY(-50px);
+            transform: translateY(-50px);
         }
         100% {
-          transform: translateY(0);
+            transform: translateY(0);
         }
-      }
-
-      .red-text-no-move{
+    }
+    
+    .red-text-no-move {
         background: linear-gradient(to right, red, #ff7f00);
         background-clip: text;
         -webkit-background-clip: text;
@@ -610,9 +617,9 @@
         -webkit-text-stroke: 0.5px red;
         display: inline-block;
         font-size: larger;
-      }
-
-      .skullbutton{
+    }
+    
+    .skullbutton {
         font-size: 5rem;
         background: linear-gradient(to right, red, #ff7f00);
         background-clip: text;
@@ -621,14 +628,34 @@
         -webkit-text-stroke: 0.3px red;
         display: inline-block;
         transition: all 1s;
-      }
-
-      .skullbutton:hover{
+    }
+    
+    .skullbutton:hover {
         animation: skullspin 2s ease-in-out;
         font-size: 6rem;
-      }
-
-      
-      
-      
-      
+    }
+    
+    #demo {
+        text-shadow: 0 0 2px #791f87, 0 0 8px #791f87, 0 0 12px #791f87, 0 0 20px #791f87, 0 0 39px #791f87, 0 0 45px #791f87, 0 0 50px #791f87;
+    }
+    
+    @media(max-width: 700px) {
+        .donation {
+            width: 60%;
+            padding-bottom: 7%;
+        }
+        #demo {
+            font-size: 0.8rem;
+        }
+    }
+    
+    .floating-3 {
+        animation-name: floating;
+        animation-duration: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    .shadow-main {
+        text-shadow: 0 0 2px #791f87, 0 0 8px #791f87, 0 0 12px #791f87, 0 0 20px #791f87, 0 0 39px #791f87, 0 0 45px #791f87, 0 0 50px #791f87;
+    }
