@@ -9,6 +9,21 @@
 
 ---
 
+## Az oldalak:
+
+- Főoldal:
+  - A lilaköd alapjainak ismertetése
+- Jelentkezés:
+  - Részt vehetsz a programba való jelentkezésben
+- Munkatársaink:
+  - A lilaköd mögött álló zseniális kutatók ismertetése
+  - Rövid bemutatkozás dolgozóinknál
+- Rólunk / Támogatás:
+  - A cég bemutatása
+  - A lilaköd közösségi alapon történő finanszírozásához való hozzájárulás
+
+---
+
 ## Felhasznált nyelvek/eszközök:
 - HTML & CSS
 - JavaScript
